@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>RPS Recharged!</title>
+
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/style.css') }}">
+<script src="{{url_for('static', filename='scripts/play.js')}}" defer></script>
+</head>
+<body>
+    
+<h1>Rock Papers Scissors Recharged!</h1>
+<div class="wrapper">
+    <div class="player">
+        <p id="choice">Choose one object!</p>
+    </div>
+    <div class="bot">
+     <p id='bot_choice'>The bot's choice.</p>
+    </div>
+    <div class="buttons">
+        <div class="pick_button" id="rock_button">Rock</div>
+        <div class="pick_button" id="paper_button">Paper</div>
+        <div class="pick_button" id="scissors_button">Scissors</div>
+    </div>
+    <div id="result"></div>
+</div>
+</body>
+</html> 

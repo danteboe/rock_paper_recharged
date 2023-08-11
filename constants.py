@@ -1,0 +1,1 @@
+ELEMENTS = ['rock', 'paper', 'scissors']

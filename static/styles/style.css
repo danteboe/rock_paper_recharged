@@ -1,0 +1,44 @@
+.start_button{
+    
+    border: 2px solid black;
+    color: red;
+    margin:2px;
+    padding:5px;
+}
+
+.wrapper{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+.player{
+    grid-column:1;
+}
+
+.bot{
+    grid-column:2;
+}
+
+.buttons{
+    display:grid;
+    column-span: all;
+    grid-column: 1/-1;
+    grid-row: 2;
+    
+}
+.pick_button{
+    border: 2px solid black
+}
+
+.rock_button{
+    grid-column: 1;
+}
+
+.paper_button{
+    grid-column:2;
+}
+
+.scissors_button{
+    grid-column:3;
+}
